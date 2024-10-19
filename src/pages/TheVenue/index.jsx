@@ -10,7 +10,7 @@ import {
 	Stack,
 	Typography,
 } from "@mui/material";
-import exeriorrearview from "../home/PictureCarousel/ChurchPictures/exeriorrearview.jpg";
+import exeriorrearview from "./Imagecomponent/exeriorrearview.jpg";
 import pic5 from "./Imagecomponent/pic5.jpg";
 import pic7 from "./Imagecomponent/pic7.jpg";
 import StandardImageList from "./Imagecomponent";
