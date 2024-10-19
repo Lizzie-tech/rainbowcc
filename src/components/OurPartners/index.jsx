@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import { Divider, Box, Typography, Stack } from "@mui/material";
 
 function OurPartners() {
@@ -57,8 +56,8 @@ function OurPartners() {
 						gutterBottom
 						sx={{ color: "white" }}
 					>
-						Displayed below are some of our partner&apos;s, if you are interested in
-						becoming a partner with our please get in touch.
+						Displayed below are some of our partner&apos;s, if you are
+						interested in becoming a partner with our please get in touch.
 					</Typography>
 				</Stack>
 			</Stack>
@@ -70,6 +69,7 @@ function OurPartners() {
 			>
 				{images.map((step) => (
 					<Box
+						key={step.label}
 						component="img"
 						sx={{
 							// height: 400,
