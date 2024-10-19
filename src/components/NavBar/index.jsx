@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import * as React from "react";
 import {
 	AppBar,
@@ -102,6 +101,7 @@ function NavBar() {
 					>
 						{pages.map((page) => (
 							<Link
+								key="menulink"
 								href={page.href}
 								sx={{ textDecoration: "none", color: "black" }}
 							>
@@ -146,6 +146,7 @@ function NavBar() {
 					<Box sx={{ display: { xs: "none", md: "flex" } }}>
 						{pages.map((page) => (
 							<Link
+								key="menu-link"
 								href={page.href}
 								sx={{ textDecoration: "none" }}
 							>

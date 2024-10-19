@@ -1,7 +1,7 @@
 import { Box, Container, Divider, Stack, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 // import PictureCarousel from "./PictureCarousel";
-import OurPartners from "../../components/OurPartners";
+import OurPartners from "../../components/OurPartners/index";
 import { ContactForm } from "./ContactForm";
 import FindUs from "./FindUs";
 import logo from "./logo.png";
