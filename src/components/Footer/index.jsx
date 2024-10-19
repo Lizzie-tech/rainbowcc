@@ -10,7 +10,7 @@ import {
 	styled,
 } from "@mui/material";
 import { Facebook } from "@mui/icons-material";
-import XIcon from "@mui/icons-material/X";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 function Footer() {
 	return (
@@ -104,17 +104,17 @@ function Footer() {
 					direction="row"
 					justifyContent="center"
 				>
-					<Tooltip title="Follow us on X">
-						<Link href="https://twitter.com/?lang=en">
-							<IconButton aria-label="delete">
-								<XIcon sx={{ color: "#3A4B40" }} />
+					<Tooltip title="Follow us on Instagram">
+						<Link href="https://www.instagram.com/rainbowcommunitycentre?igsh=MWZlbDRrbWFqMmxidQ==">
+							<IconButton aria-label="instagram link">
+								<InstagramIcon sx={{ color: "#3A4B40" }} />
 							</IconButton>
 						</Link>
 					</Tooltip>
 
 					<Tooltip title="Follow us on Facebook">
-						<Link href="https://en-gb.facebook.com/">
-							<IconButton aria-label="delete">
+						<Link href="https://www.facebook.com/profile.php?id=61566871442491">
+							<IconButton aria-label="facebook link">
 								<Facebook sx={{ color: "#3A4B40" }} />
 							</IconButton>
 						</Link>
