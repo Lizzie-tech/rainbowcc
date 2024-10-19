@@ -61,11 +61,10 @@ function Home() {
 						sx={{ width: "80%", textAlign: "center" }}
 					>
 						<Typography sx={{ marginBottom: -2, color: "white" }}>
-							hello sThe Rainbow Centre Community Centre located between
-							Cheethamhill and crumpsall. The centre is available for community,
-							charity and voluntary group hire, and private hire, and we have
-							events and activities year-round. That are available for anyone to
-							attend.
+							The Rainbow Centre Community Centre located between Cheethamhill
+							and crumpsall. The centre is available for community, charity and
+							voluntary group hire, and private hire, and we have events and
+							activities year-round. That are available for anyone to attend.
 						</Typography>
 					</Stack>
 					{/* <PictureCarousel /> */}
