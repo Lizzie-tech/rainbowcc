@@ -101,7 +101,7 @@ function NavBar() {
 					>
 						{pages.map((page) => (
 							<Link
-								key="menulink"
+								key={page.href}
 								href={page.href}
 								sx={{ textDecoration: "none", color: "black" }}
 							>
@@ -146,7 +146,7 @@ function NavBar() {
 					<Box sx={{ display: { xs: "none", md: "flex" } }}>
 						{pages.map((page) => (
 							<Link
-								key="menu-link"
+								key={page.href}
 								href={page.href}
 								sx={{ textDecoration: "none" }}
 							>
