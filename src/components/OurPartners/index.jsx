@@ -8,9 +8,9 @@ function OurPartners() {
 				"https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Tesco_Logo.svg/320px-Tesco_Logo.svg.png",
 		},
 		{
-			label: "The manchesetr active logo ",
+			label: "The Manchester active logo ",
 			imgPath:
-				"https://www.mcractive.com/themes/custom/active_newcastle/images/logo-MCRactive.svg",
+				"https://static.loadstodo.co.uk/app/uploads/2021/08/d522a7e8ee5a439d730e2fd194caae43.jpg",
 		},
 		{
 			label: "GMVC logo",
@@ -72,11 +72,11 @@ function OurPartners() {
 						key={step.label}
 						component="img"
 						sx={{
-							// height: 400,
+							height: "80%",
 							display: "block",
 							maxWidth: 250,
 							overflow: "hidden",
-							width: "100%",
+							width: "80%",
 							// marginTop: 5,
 						}}
 						src={step.imgPath}

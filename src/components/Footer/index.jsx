@@ -54,7 +54,10 @@ function Footer() {
 								href="mailto:rainbowcentre1844@gmail.com"
 								style={{ color: "#3A4B40" }}
 							>
-								<Typography sx={{ fontsize: 2 }}>
+								<Typography
+									noWrap
+									sx={{ fontsize: 2 }}
+								>
 									rainbowcentre1844@gmail.com
 								</Typography>
 							</a>

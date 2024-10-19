@@ -21,7 +21,7 @@ function WhatsOn() {
 		},
 		{
 			name: "Tea & Toast/ Afternoon Tea",
-			date: "Mondays",
+			date: "Monday's",
 			time: "11:00am-13:00pm",
 			description:
 				"Tea, Toast, chit and chat. social activities, board games and support services top tips from tea specialists",
@@ -42,7 +42,7 @@ function WhatsOn() {
 		},
 		{
 			name: "Body Conditioning",
-			date: "Tuesdays",
+			date: "Tuesday's",
 			time: "12:00-13:00",
 			description:
 				"High energy workout that combines cardio and resistance training. This is a full-body workut",
