@@ -14,7 +14,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 // import FoundationIcon from "@mui/icons-material/Foundation";
 import ActivitesButton from "./dropdownMenu/index";
-import logo from "./logo.png";
+// import logo from "./logo.png";
 
 const pages = [
 	{ name: "Home", href: "/" },
@@ -135,12 +135,12 @@ function NavBar() {
 						my: 2,
 					}}
 				>
-					<img
+					{/* <img
 						src={logo}
 						alt="Rainbow Centre Logo"
 						width="150"
 						height="150"
-					/>
+					/> */}
 				</Typography>
 				<Stack justifyContent="center">
 					<Box sx={{ display: { xs: "none", md: "flex" } }}>
