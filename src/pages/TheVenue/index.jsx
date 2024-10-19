@@ -10,6 +10,7 @@ import {
 	Stack,
 	Typography,
 } from "@mui/material";
+import Grid from "@mui/material/Grid2";
 import exeriorrearview from "./Imagecomponent/exeriorrearview.jpg";
 import pic5 from "./Imagecomponent/pic5.jpg";
 import pic7 from "./Imagecomponent/pic7.jpg";
@@ -40,122 +41,131 @@ function TheVenue() {
 					</Typography>
 				</Stack>
 
-				<Stack
-					direction="row"
-					spacing={4}
+				<Grid
+					container
+					justifyContent="center"
+					alignItems="flex-start"
 					sx={{ marginTop: 10 }}
+					spacing={2}
+					columns={{ sm: 8, lg: 15 }}
 				>
-					<Card
-						sx={{
-							width: 500,
-							maxWidth: "100%",
-							borderRadius: "12px",
-							padding: 1.5,
-							boxShadow: "0px 14px 80px rgba(34, 35, 58, 0.2)",
-						}}
-					>
-						<CardMedia
-							image={pic5}
+					<Grid size={{ xs: 10, sm: 4, md: 8, lg: 5 }}>
+						<Card
 							sx={{
-								borderRadius: "6px",
-								width: "100%",
-								height: 0,
-								paddingBottom: "min(75%, 240px)",
-								backgroundColor: "rgba(0,0,0,0.08)",
+								width: 500,
+								maxWidth: "100%",
+								borderRadius: "12px",
+								padding: 1.5,
+								boxShadow: "0px 14px 80px rgba(34, 35, 58, 0.2)",
 							}}
-						/>
-						<CardContent>
-							<Typography
-								variant="h4"
-								gutterBottom
-							>
-								The Hall
-							</Typography>
+						>
+							<CardMedia
+								image={pic5}
+								sx={{
+									borderRadius: "6px",
+									width: "100%",
+									height: 0,
+									paddingBottom: "min(75%, 240px)",
+									backgroundColor: "rgba(0,0,0,0.08)",
+								}}
+							/>
+							<CardContent>
+								<Typography
+									variant="h4"
+									gutterBottom
+								>
+									The Hall
+								</Typography>
 
-							<List>
-								<ListItemText primary="Capacity: 500 people sitting or 100 standing" />
-								<hr />
-								<ListItemText primary="Dimensions: 18m x 9m" />
-								<hr />
-								{/* <ListItemText primary="16 tables  plus 3 tables (6ft x 2.6ft) and 120 chairs" /> */}
-								<hr />
-								<ListItemText primary="small kitchen available for use equipped with 2 microwaves and fridge" />
-								<hr />
-								<ListItemText primary="Tables and chairs available for use upon request" />
-							</List>
-						</CardContent>
-					</Card>
-					<Card
-						sx={{
-							width: 500,
-							maxWidth: "100%",
-							borderRadius: "12px",
-							padding: 1.5,
-							boxShadow: "0px 14px 80px rgba(34, 35, 58, 0.2)",
-						}}
-					>
-						<CardMedia
-							image={pic7}
-							sx={{
-								borderRadius: "6px",
-								width: "100%",
-								height: 0,
-								paddingBottom: "min(75%, 240px)",
-								backgroundColor: "rgba(0,0,0,0.08)",
-							}}
-						/>
-						<CardContent>
-							<Typography
-								variant="h4"
-								gutterBottom
-							>
-								Facilities
-							</Typography>
-							<List>
-								<ListItemText primary="kitchen available for use" />
-								<hr />
-								<ListItemText primary="fridges and microwaves ailable on request" />
-								<hr />
-								<ListItemText primary="toilets and disabled toilets(wheelchair accesible)" />
-								<hr />
-								<ListItemText primary="speakers available for hire on request" />
-							</List>
-						</CardContent>
-					</Card>
-					<Card
-						sx={{
-							width: 500,
-							maxWidth: "100%",
-							borderRadius: "12px",
-							padding: 1.5,
-							boxShadow: "0px 14px 80px rgba(34, 35, 58, 0.2)",
-						}}
-					>
-						<CardMedia
-							image={exeriorrearview}
-							sx={{
-								borderRadius: "6px",
-								width: "100%",
-								height: 0,
-								paddingBottom: "min(75%, 240px)",
-								backgroundColor: "rgba(0,0,0,0.08)",
-							}}
-						/>
-						<CardContent>
-							<Typography
-								variant="h4"
-								gutterBottom
-							>
-								Parking
 								<List>
-									<ListItemText primary=" we have a gravel carpark that can accomodate upto 12 cars" />
+									<ListItemText primary="Capacity: 500 people sitting or 100 standing" />
 									<hr />
-									<ListItemText primary="there is a ramp entrance to the building" />
+									<ListItemText primary="Dimensions: 18m x 9m" />
+									<hr />
+									{/* <ListItemText primary="16 tables  plus 3 tables (6ft x 2.6ft) and 120 chairs" /> */}
+									<hr />
+									<ListItemText primary="small kitchen available for use equipped with 2 microwaves and fridge" />
+									<hr />
+									<ListItemText primary="Tables and chairs available for use upon request" />
 								</List>
-							</Typography>
-						</CardContent>
-					</Card>
-				</Stack>
+							</CardContent>
+						</Card>
+					</Grid>
+					<Grid size={{ xs: 10, sm: 4, md: 8, lg: 5 }}>
+						<Card
+							sx={{
+								width: 500,
+								maxWidth: "100%",
+								borderRadius: "12px",
+								padding: 1.5,
+								boxShadow: "0px 14px 80px rgba(34, 35, 58, 0.2)",
+							}}
+						>
+							<CardMedia
+								image={pic7}
+								sx={{
+									borderRadius: "6px",
+									width: "100%",
+									height: 0,
+									paddingBottom: "min(75%, 240px)",
+									backgroundColor: "rgba(0,0,0,0.08)",
+								}}
+							/>
+							<CardContent>
+								<Typography
+									variant="h4"
+									gutterBottom
+								>
+									Facilities
+								</Typography>
+								<List>
+									<ListItemText primary="kitchen available for use" />
+									<hr />
+									<ListItemText primary="fridges and microwaves ailable on request" />
+									<hr />
+									<ListItemText primary="toilets and disabled toilets(wheelchair accesible)" />
+									<hr />
+									<ListItemText primary="speakers available for hire on request" />
+								</List>
+							</CardContent>
+						</Card>
+					</Grid>
+					<Grid size={{ xs: 10, sm: 4, md: 8, lg: 5 }}>
+						<Card
+							sx={{
+								width: 500,
+								maxWidth: "100%",
+								borderRadius: "12px",
+								padding: 1.5,
+								boxShadow: "0px 14px 80px rgba(34, 35, 58, 0.2)",
+							}}
+						>
+							<CardMedia
+								image={exeriorrearview}
+								sx={{
+									borderRadius: "6px",
+									width: "100%",
+									height: 0,
+									paddingBottom: "min(75%, 240px)",
+									backgroundColor: "rgba(0,0,0,0.08)",
+								}}
+							/>
+							<CardContent>
+								<Typography
+									variant="h4"
+									gutterBottom
+								>
+									Parking
+									<List>
+										<ListItemText primary=" we have a gravel carpark that can accomodate upto 12 cars" />
+										<hr />
+										<ListItemText primary="there is a ramp entrance to the building" />
+									</List>
+								</Typography>
+							</CardContent>
+						</Card>
+					</Grid>
+				</Grid>
 				<StandardImageList />
 			</Container>
 		</Box>
