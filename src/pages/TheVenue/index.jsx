@@ -157,7 +157,7 @@ function TheVenue() {
 								>
 									Parking
 									<List>
-										<ListItemText primary="The carpark can accomodate upto 12 cars" />
+										<ListItemText primary="The carpark can accomodate up to 12 cars" />
 										<hr />
 										<ListItemText primary="There is a ramp entrance to the building for wheelchair access" />
 									</List>
