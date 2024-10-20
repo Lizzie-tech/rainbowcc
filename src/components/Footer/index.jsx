@@ -45,19 +45,13 @@ function Footer() {
 						<Typography sx={{ color: "#3A4B40" }}>
 							<b>Call us:</b> 0161 740 1652
 						</Typography>
-						<Typography
-							noWrap
-							sx={{ color: "#3A4B40" }}
-						>
+						<Typography sx={{ color: "#3A4B40", wordWrap: "break-word" }}>
 							<b>Email:</b>{" "}
 							<a
 								href="mailto:rainbowcentre1844@gmail.com"
 								style={{ color: "#3A4B40" }}
 							>
-								<Typography
-									noWrap
-									sx={{ fontsize: 2 }}
-								>
+								<Typography sx={{ fontsize: 2 }}>
 									rainbowcentre1844@gmail.com
 								</Typography>
 							</a>
@@ -66,9 +60,9 @@ function Footer() {
 					<StyledBox>
 						<Typography sx={{ color: "#3A4B40" }}>
 							<b>About Us:</b> <br /> We have been operating as a community
-							centre serving the local cheethamhill and crumpsall are for over
-							24 years. Hosting events for the wider community and allowing
-							members to host their own events with our facilites.
+							centre serving the local area hosting events for over 24 years. As
+							well as allowing members to host their own events with our
+							facilites.
 						</Typography>
 					</StyledBox>
 					<StyledBox>
