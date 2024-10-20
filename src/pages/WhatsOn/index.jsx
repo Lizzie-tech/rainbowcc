@@ -50,7 +50,7 @@ function WhatsOn() {
 			time: "12:00pm-13:00pm",
 			description:
 				"A High energy, full-body workout class that combines cardio and resistance training.",
-			Cost: "Free",
+			cost: "Free",
 		},
 	];
 	return (
@@ -95,17 +95,13 @@ function WhatsOn() {
 					{events.map((event) => (
 						<Grid lg={4}>
 							<Card
-								sx={{ padding: 1, margin: 2, width: "300px", height: "300px" }}
+								sx={{ padding: 2, margin: 2, width: "300px", height: "330px" }}
 							>
 								<CardContent>
 									<Stack
 										direction="column"
 										spacing={2}
 									>
-										<Typography color="text.secondary">
-											<b>Date: </b>
-											{event.date}
-										</Typography>
 										<Typography
 											sx={{ fontSize: 25 }}
 											color="#BEAB8B"
@@ -114,7 +110,10 @@ function WhatsOn() {
 										>
 											{event.name}
 										</Typography>
-
+										<Typography color="text.secondary">
+											<b>Date: </b>
+											{event.date}
+										</Typography>
 										<Typography variant="body2">
 											<b>Time: </b>
 											{event.time}
@@ -125,7 +124,7 @@ function WhatsOn() {
 										</Typography>
 										<Typography variant="body2">
 											<b>Cost: </b>
-											{event.Cost}
+											{event.cost}
 										</Typography>
 									</Stack>
 								</CardContent>

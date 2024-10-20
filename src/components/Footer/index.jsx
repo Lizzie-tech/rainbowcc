@@ -104,7 +104,10 @@ function Footer() {
 					<Tooltip title="Follow us on Instagram">
 						<Link href="https://www.instagram.com/rainbowcommunitycentre?igsh=MWZlbDRrbWFqMmxidQ==">
 							<IconButton aria-label="instagram link">
-								<InstagramIcon sx={{ color: "#3A4B40" }} />
+								<InstagramIcon
+									fontsize="large"
+									sx={{ color: "#3A4B40" }}
+								/>
 							</IconButton>
 						</Link>
 					</Tooltip>
@@ -112,7 +115,10 @@ function Footer() {
 					<Tooltip title="Follow us on Facebook">
 						<Link href="https://www.facebook.com/profile.php?id=61566871442491">
 							<IconButton aria-label="facebook link">
-								<Facebook sx={{ color: "#3A4B40" }} />
+								<Facebook
+									fontsize="large"
+									sx={{ color: "#3A4B40" }}
+								/>
 							</IconButton>
 						</Link>
 					</Tooltip>
