@@ -78,13 +78,11 @@ function TheVenue() {
 								</Typography>
 
 								<List>
-									<ListItemText primary="Capacity: 500 people sitting or 100 standing" />
+									<ListItemText primary="Capacity: 100 people sitting or 130 standing" />
 									<hr />
-									<ListItemText primary="Dimensions: 18m x 9m" />
-									<hr />
-									{/* <ListItemText primary="16 tables  plus 3 tables (6ft x 2.6ft) and 120 chairs" /> */}
-									<hr />
-									<ListItemText primary="small kitchen available for use equipped with 2 microwaves and fridge" />
+									{/* <ListItemText primary="Dimensions: 18m x 9m" /> */}
+									{/* <hr /> */}
+									<ListItemText primary="12 tables and 100 chairs" />
 									<hr />
 									<ListItemText primary="Tables and chairs available for use upon request" />
 								</List>
@@ -119,13 +117,15 @@ function TheVenue() {
 									Facilities
 								</Typography>
 								<List>
-									<ListItemText primary="kitchen available for use" />
+									<ListItemText primary="Free wifi on request" />
 									<hr />
-									<ListItemText primary="fridges and microwaves ailable on request" />
+									<ListItemText primary="Small kitchen available to use for warming foods" />
 									<hr />
-									<ListItemText primary="toilets and disabled toilets(wheelchair accesible)" />
+									<ListItemText primary="There is a fridge, microwave and cooker " />
 									<hr />
-									<ListItemText primary="speakers available for hire on request" />
+									<ListItemText primary="Toilets and disabled toilets(wheelchair accesible)" />
+									<hr />
+									<ListItemText primary="speakers can be avaialable for use if discussed prior" />
 								</List>
 							</CardContent>
 						</Card>
@@ -157,9 +157,9 @@ function TheVenue() {
 								>
 									Parking
 									<List>
-										<ListItemText primary=" we have a gravel carpark that can accomodate upto 12 cars" />
+										<ListItemText primary="The carpark can accomodate upto 12 cars" />
 										<hr />
-										<ListItemText primary="there is a ramp entrance to the building" />
+										<ListItemText primary="There is a ramp entrance to the building for wheelchair access" />
 									</List>
 								</Typography>
 							</CardContent>

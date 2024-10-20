@@ -14,38 +14,43 @@ function WhatsOn() {
 	const events = [
 		{
 			name: "Youth & Family Club",
-			date: "Every Saturday/quarterly",
+			date: "Quarterly",
 			time: "18:30pm-21:30pm",
 			description:
 				" Join us for an evening of games such as Table Tennis, Team Games, bar football, Board games, Dominoes, Cultural games, Who sell out? and more.",
+			cost: "Free",
 		},
 		{
-			name: "Tea & Toast/ Afternoon Tea",
-			date: "Monday's",
+			name: "Sip & Chat",
+			date: "Every Monday",
 			time: "11:00am-13:00pm",
 			description:
-				"Tea, Toast, chit and chat. social activities, board games and support services top tips from tea specialists",
+				"Tea, toast, biscuits, cake, plus a host of social activities such as board games and knitting. Plus support from volunteers on a range of services such as financial worries and legal matters.",
+			cost: "Free",
 		},
 		{
 			name: "Xtream Hip Hop – Steps",
-			date: "Monday's",
+			date: "Every Mondays",
 			time: "19:00pm-20:00pm",
 			description:
-				"Step and step some more to the grove which keeps on moving. Not for the fait hearted. Step class led by experts Charge Made at Class",
+				"Step and step some more to the groove which keeps on moving. Not for the faint hearted. Step class led by experts. ",
+			cost: "TBD",
 		},
 		{
 			name: "Beginners Box Fit",
-			date: "Tuesdays",
+			date: "Every Tuesday",
 			time: "11:00am-12:00pm",
 			description:
-				"Beginners session, challenging and fun, non-contact sport suitable for all levels £3per session only.",
+				"Beginners session, challenging and fun, non-contact sport suitable for all levels..",
+			cost: "£3",
 		},
 		{
 			name: "Body Conditioning",
-			date: "Tuesday's",
-			time: "12:00-13:00",
+			date: "Every Tuesday",
+			time: "12:00pm-13:00pm",
 			description:
-				"High energy workout that combines cardio and resistance training. This is a full-body workut",
+				"A High energy, full-body workout class that combines cardio and resistance training.",
+			Cost: "Free",
 		},
 	];
 	return (
@@ -72,10 +77,7 @@ function WhatsOn() {
 						/>
 					</Typography>
 				</Stack>
-				<Typography
-					sx={{ color: "#3C3800" }}
-					noWrap
-				>
+				<Typography sx={{ color: "#3C3800" }}>
 					Please find below a series of events that we host throughout the week.
 					If you are interested in helping out in hosting/volunteering at these
 					classes or holding your own classes, please contact us.
@@ -118,8 +120,12 @@ function WhatsOn() {
 											{event.time}
 										</Typography>
 										<Typography variant="body2">
-											<b>Decsription: </b>
+											<b>Description: </b>
 											{event.description}
+										</Typography>
+										<Typography variant="body2">
+											<b>Cost: </b>
+											{event.Cost}
 										</Typography>
 									</Stack>
 								</CardContent>

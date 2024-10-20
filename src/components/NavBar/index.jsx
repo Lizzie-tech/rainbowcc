@@ -16,7 +16,7 @@ import ActivitesButton, { ActivitesButtonMenu } from "./dropdownMenu/index";
 
 const pages = [
 	{ name: "Home", href: "/" },
-	{ name: "Whats on", href: "/whatson" },
+	{ name: "What's on", href: "/whatson" },
 	{ name: "The Venue", href: "thevenue" },
 	{ name: "About us", href: "aboutus" },
 ];
