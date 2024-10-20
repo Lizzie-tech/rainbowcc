@@ -12,9 +12,7 @@ import {
 	Typography,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-// import FoundationIcon from "@mui/icons-material/Foundation";
-import ActivitesButton from "./dropdownMenu/index";
-// import logo from "./logo.png";
+import ActivitesButton, { ActivitesButtonMenu } from "./dropdownMenu/index";
 
 const pages = [
 	{ name: "Home", href: "/" },
@@ -25,10 +23,6 @@ const pages = [
 
 function NavBar() {
 	const [anchorEl, setAnchorEl] = React.useState(null);
-	// const element = document.getElementById("box");
-	// const handleClick = () => {
-	// 	element?.scrollIntoView({ behavior: "smooth" });
-	// };
 
 	const handleOpenNavMenu = (event) => {
 		setAnchorEl(event.currentTarget);
@@ -45,31 +39,7 @@ function NavBar() {
 			position="static"
 			sx={{ background: "#92CBA9" }}
 		>
-			{/* <Container> */}
 			<Toolbar>
-				{/* <FoundationIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
-				{/* <Typography
-					variant="h6"
-					noWrap
-					component="a"
-					href="/"
-					sx={{
-						mr: 2,
-						display: { xs: "none", md: "flex" },
-						color: "inherit",
-						textDecoration: "none",
-						flexGrow: 1,
-						my: 2,
-					}}
-				>
-					<img
-						src={logo}
-						alt="Rainbow Centre Logo"
-						width="250"
-						height="150"
-					/>
-				</Typography> */}
-				{/*  */}
 				<Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
 					<IconButton
 						size="large"
@@ -113,35 +83,11 @@ function NavBar() {
 								</MenuItem>
 							</Link>
 						))}
-						<MenuItem>
-							<ActivitesButton />
+						<MenuItem sx={{ padding: 0, margin: 0 }}>
+							<ActivitesButtonMenu />
 						</MenuItem>
 					</Menu>
 				</Box>
-				{/*  */}
-
-				{/* <FoundationIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
-				<Typography
-					variant="h5"
-					noWrap
-					component="a"
-					href="#app-bar-with-responsive-menu"
-					sx={{
-						mr: 2,
-						display: { xs: "flex", md: "none" },
-						flexGrow: 1,
-						color: "inherit",
-						textDecoration: "none",
-						my: 2,
-					}}
-				>
-					{/* <img
-						src={logo}
-						alt="Rainbow Centre Logo"
-						width="150"
-						height="150"
-					/> */}
-				</Typography>
 				<Stack justifyContent="center">
 					<Box sx={{ display: { xs: "none", md: "flex" } }}>
 						{pages.map((page) => (
@@ -162,8 +108,7 @@ function NavBar() {
 						<ActivitesButton />
 						{/* <a href="#about"> */}
 						<Button
-							// onClick={handleClick}
-							href="/#about"
+							href="/#contactus"
 							sx={{ my: 2, color: "white", display: "block" }}
 						>
 							contact us
@@ -172,7 +117,6 @@ function NavBar() {
 					</Box>
 				</Stack>
 			</Toolbar>
-			{/* </Container> */}
 		</AppBar>
 	);
 }
