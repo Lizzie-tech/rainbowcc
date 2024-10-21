@@ -69,7 +69,7 @@ function Footer() {
 						<Typography sx={{ color: "#3A4B40" }}>
 							<b>Donate to us:</b> <br /> We are a non profit organisation and
 							therefore we rely on donations for the running costs of the centre
-							as well as funds to allow us to host activiies for the community.
+							as well as funds to allow us to host activities for the community.
 						</Typography>
 						<form
 							action="https://www.paypal.com/donate"

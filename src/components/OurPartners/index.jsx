@@ -38,7 +38,7 @@ function OurPartners() {
 					sx={{ fontSize: 30, color: "white", fontFamily: "monospace" }}
 				>
 					{" "}
-					Our Partner&apos;s
+					Our Partners
 					<Divider
 						orientation="horizontal"
 						variant="middle"
@@ -56,8 +56,8 @@ function OurPartners() {
 						gutterBottom
 						sx={{ color: "white" }}
 					>
-						Displayed below are some of our partner&apos;s, if you are
-						interested in becoming a partner with our please get in touch.
+						Displayed below are some of our partners, if you are
+						interested in becoming a partner with us please get in touch.
 					</Typography>
 				</Stack>
 			</Stack>
