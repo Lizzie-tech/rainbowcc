@@ -29,7 +29,7 @@ function WhatsOn() {
 			cost: "Free",
 		},
 		{
-			name: "Xtream Hip Hop – Steps",
+			name: "Xtreme Hip Hop – Steps",
 			date: "Every Mondays",
 			time: "19:00pm-20:00pm",
 			description:
