@@ -49,7 +49,7 @@ function WhatsOn() {
 			date: "Every Tuesday",
 			time: "12:00pm-13:00pm",
 			description:
-				"A High energy, full-body workout class that combines cardio and resistance training.",
+				"A high energy, full-body workout class that combines cardio and resistance training.",
 			cost: "Free",
 		},
 	];

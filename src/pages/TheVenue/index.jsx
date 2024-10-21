@@ -123,9 +123,9 @@ function TheVenue() {
 									<hr />
 									<ListItemText primary="There is a fridge, microwave and cooker " />
 									<hr />
-									<ListItemText primary="Toilets and disabled toilets(wheelchair accesible)" />
+									<ListItemText primary="Toilets and disabled toilets (wheelchair accesible)" />
 									<hr />
-									<ListItemText primary="speakers can be avaialable for use if discussed prior" />
+									<ListItemText primary="Speakers can be available for use if discussed prior" />
 								</List>
 							</CardContent>
 						</Card>
