@@ -51,7 +51,7 @@ function Footer() {
 								href="mailto:rainbowcentre1844@gmail.com"
 								style={{ color: "#3A4B40" }}
 							>
-								<Typography sx={{ fontsize: 2 }}>
+								<Typography sx={{ fontSize: 2 }}>
 									rainbowcentre1844@gmail.com
 								</Typography>
 							</a>
@@ -105,7 +105,7 @@ function Footer() {
 						<Link href="https://www.instagram.com/rainbowcommunitycentre?igsh=MWZlbDRrbWFqMmxidQ==">
 							<IconButton aria-label="instagram link">
 								<InstagramIcon
-									fontsize="large"
+									fontSize="large"
 									sx={{ color: "#3A4B40" }}
 								/>
 							</IconButton>
@@ -116,7 +116,7 @@ function Footer() {
 						<Link href="https://www.facebook.com/profile.php?id=61566871442491">
 							<IconButton aria-label="facebook link">
 								<Facebook
-									fontsize="large"
+									fontSize="large"
 									sx={{ color: "#3A4B40" }}
 								/>
 							</IconButton>

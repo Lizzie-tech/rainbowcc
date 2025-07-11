@@ -29,12 +29,19 @@ function WhatsOn() {
 			cost: "Free",
 		},
 		{
-			name: "Xtreme Hip Hop – Steps",
-			date: "Every Mondays",
+			name: "Zumba Class",
+			date: "Every Tuesday and Thursday",
+			time: "11:00am on Tuesday and 18:30pm on Thursday",
+			description: "Let the music move you!",
+			cost: "£5",
+		},
+		{
+			name: "Percussion Orchestra",
+			date: "2nd & 4th Tuesday of the month",
 			time: "19:00pm-20:00pm",
 			description:
-				"Step and step some more to the groove which keeps on moving. Not for the faint hearted. Step class led by experts. ",
-			cost: "TBD",
+				"If you play a percussion instrument or would like to learn join us!",
+			cost: "Free",
 		},
 		{
 			name: "Beginners Box Fit",
@@ -51,6 +58,22 @@ function WhatsOn() {
 			description:
 				"A high energy, full-body workout class that combines cardio and resistance training.",
 			cost: "Free",
+		},
+		{
+			name: "Strength & Balance",
+			date: "Every Tuesday",
+			time: "12:00pm",
+			description:
+				"A strength and balance focused class.",
+			cost: "£3",
+		},
+		{
+			name: "Beginner Friendly Circuit Training",
+			date: "Every Thursday",
+			time: "12:00pm",
+			description:
+				"A beginner friendly circuit training class.",
+			cost: "£3",
 		},
 	];
 	return (

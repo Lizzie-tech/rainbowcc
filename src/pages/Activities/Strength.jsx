@@ -8,9 +8,9 @@ import {
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 
-import sipandchat from "./sipandchat.png";
+import strength from "./strength.png";
 
-function Socials() {
+function StrengthClass() {
 	return (
 		<Container sx={{ height: "100%" }}>
 			<Stack
@@ -25,7 +25,7 @@ function Socials() {
 					sx={{ fontSize: 35, paddingTop: 5 }}
 				>
 					{" "}
-					Sip & Chat mornings
+					Strength & Balance
 					<Divider
 						orientation="horizontal"
 						variant="middle"
@@ -37,7 +37,8 @@ function Socials() {
 					color="GrayText"
 					gutterBottom
 				>
-					Join us for Sip and chat mornings, we&apos;d love to see you there!
+					Join our class to improve your stability, enhance muscle strength and
+					boost overall confidence in movement.
 				</Typography>
 				<Box>
 					<Paper sx={{ width: "fit-content" }}>
@@ -57,8 +58,8 @@ function Socials() {
 									width: "100%",
 									marginBottom: 5,
 								}}
-								src={sipandchat}
-								alt=" A poster with information on body conditoning"
+								src={strength}
+								alt=" A poster with information on the strength class."
 							/>
 						</Grid>
 					</Paper>
@@ -67,4 +68,4 @@ function Socials() {
 		</Container>
 	);
 }
-export default Socials;
+export default StrengthClass;

@@ -1,16 +1,15 @@
 import {
-	Box,
 	Container,
+	Typography,
+	Box,
 	Divider,
 	Paper,
 	Stack,
-	Typography,
 } from "@mui/material";
+import PercussionOrchestra from "./PercussionOrchestra.jpg";
 import Grid from "@mui/material/Grid2";
 
-import sipandchat from "./sipandchat.png";
-
-function Socials() {
+function Percussion() {
 	return (
 		<Container sx={{ height: "100%" }}>
 			<Stack
@@ -25,7 +24,7 @@ function Socials() {
 					sx={{ fontSize: 35, paddingTop: 5 }}
 				>
 					{" "}
-					Sip & Chat mornings
+					Percussion Orchestra
 					<Divider
 						orientation="horizontal"
 						variant="middle"
@@ -37,7 +36,8 @@ function Socials() {
 					color="GrayText"
 					gutterBottom
 				>
-					Join us for Sip and chat mornings, we&apos;d love to see you there!
+					If you play a percussion instrument or would like to learn, see below
+					for more information!
 				</Typography>
 				<Box>
 					<Paper sx={{ width: "fit-content" }}>
@@ -57,8 +57,8 @@ function Socials() {
 									width: "100%",
 									marginBottom: 5,
 								}}
-								src={sipandchat}
-								alt=" A poster with information on body conditoning"
+								src={PercussionOrchestra}
+								alt=" A poster with information on the percussion orchestra"
 							/>
 						</Grid>
 					</Paper>
@@ -67,4 +67,4 @@ function Socials() {
 		</Container>
 	);
 }
-export default Socials;
+export default Percussion;

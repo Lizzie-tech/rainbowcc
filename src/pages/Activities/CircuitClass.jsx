@@ -8,9 +8,9 @@ import {
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 
-import sipandchat from "./sipandchat.png";
+import circuitclass from "./circuitclass.png";
 
-function Socials() {
+function CircuitClass() {
 	return (
 		<Container sx={{ height: "100%" }}>
 			<Stack
@@ -25,7 +25,7 @@ function Socials() {
 					sx={{ fontSize: 35, paddingTop: 5 }}
 				>
 					{" "}
-					Sip & Chat mornings
+					Circuit Class
 					<Divider
 						orientation="horizontal"
 						variant="middle"
@@ -37,7 +37,9 @@ function Socials() {
 					color="GrayText"
 					gutterBottom
 				>
-					Join us for Sip and chat mornings, we&apos;d love to see you there!
+					Join our beginner friendly circuit class, with a variety of low impact
+					exercises you can work at a pace that suits you in a friendly and
+					supportive environment.
 				</Typography>
 				<Box>
 					<Paper sx={{ width: "fit-content" }}>
@@ -57,8 +59,8 @@ function Socials() {
 									width: "100%",
 									marginBottom: 5,
 								}}
-								src={sipandchat}
-								alt=" A poster with information on body conditoning"
+								src={circuitclass}
+								alt=" A poster with information on the strength class."
 							/>
 						</Grid>
 					</Paper>
@@ -67,4 +69,4 @@ function Socials() {
 		</Container>
 	);
 }
-export default Socials;
+export default CircuitClass;

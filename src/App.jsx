@@ -7,6 +7,10 @@ import Fitness from "./pages/Activities/Fitness";
 import BodyConditioning from "./pages/Activities/BodyConditioning";
 import BoxFit from "./pages/Activities/BoxFit";
 import Socials from "./pages/Activities/Socials";
+import Percussion from "./pages/Activities/MusicClasses";
+import StrengthClass from "./pages/Activities/Strength";
+import Zumba from "./pages/Activities/Zumba";
+import CircuitClass from "./pages/Activities/CircuitClass";
 
 function App() {
 	return (
@@ -44,6 +48,22 @@ function App() {
 					<Route
 						element={<Socials />}
 						path="/socials"
+					/>
+					<Route
+						element={<Percussion />}
+						path="/percussion"
+					/>
+					<Route
+						element={<StrengthClass />}
+						path="/strengthclass"
+					/>
+					<Route
+						element={<Zumba />}
+						path="/zumba"
+					/>
+					<Route
+						element={<CircuitClass />}
+						path="/circuitclass"
 					/>
 				</Routes>
 			</BrowserRouter>
