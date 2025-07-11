@@ -3,7 +3,6 @@ import Home from "./pages/Home/index";
 import WhatsOn from "./pages/WhatsOn/index";
 import VenuHire from "./pages/TheVenue/index";
 import AboutUs from "./pages/AbooutUs/index";
-import Fitness from "./pages/Activities/Fitness";
 import BodyConditioning from "./pages/Activities/BodyConditioning";
 import BoxFit from "./pages/Activities/BoxFit";
 import Socials from "./pages/Activities/Socials";
@@ -32,10 +31,6 @@ function App() {
 					<Route
 						element={<AboutUs />}
 						path="/aboutus"
-					/>
-					<Route
-						element={<Fitness />}
-						path="/fitness"
 					/>
 					<Route
 						element={<BodyConditioning />}

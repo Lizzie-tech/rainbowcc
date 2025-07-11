@@ -6,7 +6,6 @@ import { Link } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const pages = [
-	{ name: "Fitness", href: "fitness" },
 	{ name: "Body Conditioning", href: "bodyconditioning" },
 	{ name: "BoxFit", href: "boxfit" },
 	{ name: "Socials", href: "/socials" },
