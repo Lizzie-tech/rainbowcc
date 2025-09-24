@@ -9,6 +9,7 @@ import {
 	Typography,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
+import timetable2 from "../pictures/timetable2.png";
 
 function WhatsOn() {
 	const events = [
@@ -96,6 +97,7 @@ function WhatsOn() {
 					xs={6}
 					direction="row"
 					width="100%"
+					justifyContent="center"
 				>
 					{events.map((event) => (
 						<Grid lg={4}>
@@ -138,6 +140,21 @@ function WhatsOn() {
 					))}
 				</Grid>
 				<Divider />
+				<Grid>
+					<Box
+						component="img"
+						sx={{
+							height: "auto",
+							display: "block",
+							overflow: "hidden",
+							width: "100%",
+							marginBottom: 5,
+							padding: 2,
+						}}
+						src={timetable2}
+						alt=" A poster with information on the strength class."
+					/>
+				</Grid>
 				{/* <Grid>
 				<Typography>
 					Below is our Calendar of events, you can add the calendar invites into
