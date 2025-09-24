@@ -52,9 +52,8 @@ function CircuitClass() {
 							<Box
 								component="img"
 								sx={{
-									height: 1200,
+									height: "auto",
 									display: "block",
-									maxWidth: 800,
 									overflow: "hidden",
 									width: "100%",
 									marginBottom: 5,
