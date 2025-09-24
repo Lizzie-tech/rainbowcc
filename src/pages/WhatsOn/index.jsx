@@ -33,7 +33,7 @@ function WhatsOn() {
 			date: "Every Tuesday and Thursday",
 			time: "11:00am on Tuesday and 18:30pm on Thursday",
 			description: "Let the music move you!",
-			cost: "£5",
+			cost: "£3",
 		},
 		{
 			name: "Percussion Orchestra",
@@ -44,35 +44,17 @@ function WhatsOn() {
 			cost: "Free",
 		},
 		{
-			name: "Beginners Box Fit",
-			date: "Every Tuesday",
-			time: "11:00am-12:00pm",
-			description:
-				"Beginners session, challenging and fun, non-contact sport suitable for all levels..",
-			cost: "£3",
-		},
-		{
-			name: "Body Conditioning",
-			date: "Every Tuesday",
-			time: "12:00pm-13:00pm",
-			description:
-				"A high energy, full-body workout class that combines cardio and resistance training.",
-			cost: "Free",
-		},
-		{
 			name: "Strength & Balance",
 			date: "Every Tuesday",
 			time: "12:00pm",
-			description:
-				"A strength and balance focused class.",
+			description: "A strength and balance focused class.",
 			cost: "£3",
 		},
 		{
 			name: "Beginner Friendly Circuit Training",
 			date: "Every Thursday",
 			time: "12:00pm",
-			description:
-				"A beginner friendly circuit training class.",
+			description: "A beginner friendly circuit training class.",
 			cost: "£3",
 		},
 	];

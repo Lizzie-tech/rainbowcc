@@ -6,13 +6,11 @@ import { Link } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const pages = [
-	{ name: "Body Conditioning", href: "bodyconditioning" },
-	{ name: "BoxFit", href: "boxfit" },
 	{ name: "Socials", href: "/socials" },
 	{ name: "Music", href: "percussion" },
 	{ name: "Strength & Balance", href: "strengthclass" },
 	{ name: "Circuit Class", href: "circuitclass" },
-	{ name: "Zumba", href: "zumba"}
+	{ name: "Zumba", href: "zumba" },
 ];
 
 export default function ActivitesButton() {

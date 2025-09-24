@@ -3,8 +3,6 @@ import Home from "./pages/Home/index";
 import WhatsOn from "./pages/WhatsOn/index";
 import VenuHire from "./pages/TheVenue/index";
 import AboutUs from "./pages/AbooutUs/index";
-import BodyConditioning from "./pages/Activities/BodyConditioning";
-import BoxFit from "./pages/Activities/BoxFit";
 import Socials from "./pages/Activities/Socials";
 import Percussion from "./pages/Activities/MusicClasses";
 import StrengthClass from "./pages/Activities/Strength";
@@ -31,14 +29,6 @@ function App() {
 					<Route
 						element={<AboutUs />}
 						path="/aboutus"
-					/>
-					<Route
-						element={<BodyConditioning />}
-						path="/bodyconditioning"
-					/>
-					<Route
-						element={<BoxFit />}
-						path="/boxfit"
 					/>
 					<Route
 						element={<Socials />}
